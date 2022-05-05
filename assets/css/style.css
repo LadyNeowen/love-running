@@ -121,18 +121,31 @@ color:#252525;
     padding-top: 30px;
     width: 33%;
     float: left;
-    color:blue;
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    color:silver;
+    background-color: green;
 }
 
 #center-about {
     width: 33%;
     margin: 0 auto;
-    color: green;
+    background-color: silver;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
 }
